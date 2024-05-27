@@ -18,7 +18,7 @@ default_args = {
     'retries': 1,
 }
 
-with DAG('test_dag',
+with DAG('test_dag_total',
          default_args=default_args,
          schedule_interval='@daily',
          catchup=False) as dag:

@@ -20,7 +20,7 @@ default_args = {
 
 # Instantiate the DAG
 dag = DAG(
-    'test_dag', 
+    'test_dag_new', 
      default_args=default_args, 
     description='A simple test DAG',
     schedule_interval=None,
